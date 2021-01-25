@@ -1,0 +1,15 @@
+.List {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10rem;
+	width: 50%;
+	font-size: 1.6rem;
+}
+.List__title {
+	margin-bottom: 5rem;
+}
+
+.List__elements {
+	width: 100%;
+}

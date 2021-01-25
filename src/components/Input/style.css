@@ -1,0 +1,28 @@
+.Input {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.Input__label {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.Input__box {
+	height: 3rem;
+	width: 30rem;
+	padding-left: 2rem;
+	border-radius: 5rem;
+	border: none;
+	outline: none;
+}
+
+.Input__box:focus {
+	border: 2px solid #e33b66;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	margin-top: 1rem;
+}

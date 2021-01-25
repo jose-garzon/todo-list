@@ -1,0 +1,36 @@
+.List-item {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	padding: 1rem 3rem;
+	list-style: none;
+	border-radius: 1rem;
+	box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+	border: 2px solid cornflowerblue;
+	cursor: pointer;
+	transition: 0.2s;
+	animation: slide 0.3s;
+}
+
+.List-item:hover {
+	background-color: cornflowerblue;
+	color: white;
+}
+
+.List-item__name {
+	font-size: 2.5rem;
+	margin-right: 4rem;
+}
+
+@keyframes slide {
+	from {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
